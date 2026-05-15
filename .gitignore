@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ROS 2
+install/
+log/
+
+# ROS bag files
+*.bag
+*.db3
