@@ -13,6 +13,15 @@ This project implements a keyboard-based drone control pipeline for a simulated 
 The keyboard controller publishes velocity commands to MAVROS, and MAVROS sends those commands to PX4 in OFFBOARD mode.  
 PX4 then controls the Iris drone inside Gazebo.
 
+## Demo Video
+
+### Keyboard Drone Control
+
+[Watch keyboard drone control demo](assets/Keyboard_drone_demo.mp4)
+
+This demo shows keyboard-based velocity control of a PX4 Iris drone in Gazebo using ROS 2 and MAVROS.
+
+
 ---
 
 ## Tech Stack
@@ -191,3 +200,9 @@ ros2 topic echo /mavros/local_position/pose
 - Add waypoint following
 - Add autonomous path tracking
 - Integrate with A* path planning
+
+---
+
+## Author
+
+Heewoo Kang
